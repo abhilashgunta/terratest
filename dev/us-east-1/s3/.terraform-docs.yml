@@ -1,0 +1,10 @@
+formatter: markdown table
+header-from: doc-header.txt
+sections:
+  hide:
+    # - inputs
+    # - outputs
+settings:
+  anchors: true
+  escape: true #inject escapes for underscores
+  indent: 2

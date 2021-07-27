@@ -1,0 +1,16 @@
+repos:
+- repo: git://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.47.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
+  hooks: # See the hooks overview here: https://cylance.atlassian.net/wiki/spaces/DA/pages/1786150974/Terraform+Auto-Tooling
+    - id: terraform_fmt
+    - id: terraform_docs
+
+
+# <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+#       terraform_docs hook generates module
+#       documentation between these comment
+#       flags. Place them in your module's
+#       README.md and run `pre-commit run`.
+
+# <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
